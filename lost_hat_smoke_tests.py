@@ -1,9 +1,13 @@
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
 
 from helpers import operational_helpers as oh
 import time
+
+from helpers.ScreenshotListener import ScreenshotListener
+
 
 class LostHatSmokeTests(unittest.TestCase):
 
@@ -14,11 +18,12 @@ class LostHatSmokeTests(unittest.TestCase):
         self.clothes_product_url = self.base_url + '3-clothes'
         self.accessories_product_url = self.base_url + '6-accessories'
         self.art_product_url = self.base_url + '9-art'
-        self.driver = webdriver.Chrome(executable_path=r"C:\Python\Test\chromedriver.exe")
+        driver = webdriver.Chrome(executable_path=r"C:\Personal_Belongings\Python\Chromedriver\chromedriver.exe")
+        self.ef_driver = EventFiringWebDriver(driver, ScreenshotListener())
 
     @classmethod
     def tearDownClass(self):
-        self.driver.quit()
+        self.ef_driver.quit()
 
     def test_base_page_title(self):
         expected_title = 'Lost Hat'
@@ -41,8 +46,8 @@ class LostHatSmokeTests(unittest.TestCase):
         self.assert_title(self.login_url, expected_title)
 
     def get_page_title(self, url):
-        self.driver.get(url)
-        return self.driver.title
+        self.ef_driver.get(url)
+        return self.ef_driver.title
 
     def assert_title(self, url, expected_title):
         actual_title = self.get_page_title(url)
@@ -50,14 +55,14 @@ class LostHatSmokeTests(unittest.TestCase):
                          f'Expected {expected_title} differ from actual title {actual_title} on page: {url}')
 
     def test_search_bar_existance(self):
-        driver = self.driver
+        driver = self.ef_driver
         driver.get(self.base_url)
         search_bar_xpath = '//*[@id="search_widget"]/form'
         element_existance = oh.check_exists_by_xpath(driver, search_bar_xpath)
         self.assertEqual(True, element_existance, f'Element with xpath: {search_bar_xpath} does not exist on the page with url: {driver.current_url}')
 
     def test_search_bar_phrase_input(self):
-        driver = self.driver
+        driver = self.ef_driver
         driver.get(self.base_url)
         minimum_expected_elements = 5
         search_bar_xpath = '//*[@name="s"]'

@@ -2,8 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f0456e5-d8bd-4c03-bfdd-9bd1e09083cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lost_hat_sanity_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jt_part4_demo_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jt_part4_demo_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_hat_cart_page_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lost_hat_cart_page_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_hat_front_page_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lost_hat_front_page_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_hat_login_page_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lost_hat_login_page_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_hat_product_page_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lost_hat_product_page_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_hat_sanity_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lost_hat_sanity_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lost_hat_smoke_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/lost_hat_smoke_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0634e880-7b6a-4c50-9af5-074ebe8570a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/06720cb9-e4f1-4c72-9227-201b27da0a5c-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ScreenshotListener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0674c4d3-1888-44db-9523-414e005c5649-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0c09d8c3-9a7b-4855-95ff-cb505be91df8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/0fd71250-2783-46f3-8f2f-5ab2952a5070-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/1338a4f5-c517-43b1-9248-c25650374d8e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/166eeb89-8c31-47cc-ac04-4b028db3564b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/174e4d63-f2ef-44ce-a373-ceed2334e0fb-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/197bca90-bf79-41a4-aca0-08a25dfbff85-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/19ecffce-34e3-4158-ba68-1a0a430cb0e5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/20db517b-c73d-423b-9953-1c917ef86abe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/21a399e2-0022-4790-b1ae-62704fcca81c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/23b1f861-244d-4d83-a268-b4137dd6d6ab-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/245e724b-8ede-4b63-9b6e-4e93d9b661d2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/2fa9412d-8fe2-41fa-80e8-eb01c83e4c29-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/321af122-8712-4569-8d9c-b51433c92c33-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/37d0ea8e-cec5-43c6-8ed4-a4703e2b8887-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3ea3ed5b-d146-4e7e-97cf-a63ccddd8bed-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4190525e-fbd4-4fc0-9a4c-55c752b0749b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4951f2b4-8e65-409b-93f5-f80cd2bfb0bb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/49cf014f-0b29-48e4-8611-7293cc39a26a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4b9d5631-132b-4e82-93a3-a190151ca02d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/4fc2c09d-61bf-46ff-95ac-a5d3a8eab540-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/546592bc-3aad-4f5c-8a6c-47a50bb73bfa-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5e777dda-6981-4d22-992b-d4abe1e007c8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/5ea947b5-a139-41b4-8d78-04ae5f9ed1b7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/612c48e5-014c-4791-a059-58fbea48afb1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/6f77f845-3f8f-471d-b8e3-4aeac3af4cf8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7198277b-bdb7-412d-b93d-cae2d55ca87f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/7bba742d-5418-42a7-a755-001a89b905ff-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/89e2e866-fe25-4df1-890d-49d36636d633-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8b6977c1-6525-41ce-a809-8e1d2aefb865-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8bfb66f4-dcde-4091-82b1-0eb803fca09c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8d9b7a53-ffe7-442a-a367-09b19c8deeff-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8f2a7c44-8bff-4d91-9817-4c3d8b43a185-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/8fe1a60a-f12d-476b-a129-ec500b6ccdfe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/919a8540-d8a5-4164-b999-ac49e2a4567e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/929b2ad4-00fe-40c3-a2f2-175f1e021580-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/93d76bb0-b4cd-4ebc-8bf8-33a36caf7b51-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/950cd97f-b385-4d0d-ac1c-972197d4a3b0-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/9f1f9167-df14-4053-b1d3-fba80914ca93-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/a37b09fe-c71e-44f4-81a4-51e51f465f93-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/b19fa0aa-b08f-434c-a327-6b4678f6f610-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/b303fcb8-7fb3-41ad-a8ad-8e1151c07c29-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/b3e3208b-7497-453e-b4e3-61baa9b8821f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/b4213777-df09-4ff0-86e9-665b3841ede1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/bb85fc26-85fd-453e-bd75-e4a895468d00-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/c2afe6a0-305f-4205-89f4-c6d648f20a4b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/c3e93625-0401-4392-a774-6705f95c4603-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cc34b42b-272a-48e7-b091-30233b0b194f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/cec8cd34-d29b-492a-bcb2-76241d3c1a5a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d1c911a9-a281-4800-99e7-3afb956656c2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d311b367-bbed-4c3d-9d5a-7ca57c8856b5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d3ec8dc3-5495-46b1-868c-6da414f811d8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d4d64208-f384-43bc-a995-bfcbacdc98a7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/d8076edf-9fae-4c1d-b29d-e4aa426ee3c2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/e139493f-6c0a-4f40-927f-c9e74e8f987d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/e4276ba8-ecaa-4630-b5c8-2b8c645130da-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fa04e682-3e59-4b8e-a1fe-79af6d7dc76c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fe0c079b-0a46-49a9-9005-ec4a61d81dea-attachment.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,40 +80,119 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46908492">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="lost_hat_sanity_tests.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lost_hat_sanity_tests.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="lost_hat_smoke_tests.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lost_hat_smoke_tests.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="355">
-                  <caret line="69" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="scratch_4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch_5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lost_hat_cart_page_tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lost_hat_cart_page_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lost_hat_front_page_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lost_hat_front_page_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lost_hat_login_page_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lost_hat_login_page_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lost_hat_product_page_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lost_hat_product_page_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lost_hat_sanity_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lost_hat_sanity_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="111" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="111" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lost_hat_smoke_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lost_hat_smoke_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testsuite_sanity_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testsuite_sanity_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenshotListener.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/ScreenshotListener.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +205,9 @@
     <findStrings>
       <find>login</find>
     </findStrings>
+    <replaceStrings>
+      <replace>.ef_driver.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,16 +220,20 @@
         <option value="$PROJECT_DIR$/lost_hat_tests.py" />
         <option value="$PROJECT_DIR$/helpers/lost_hat_smoke_tests.py" />
         <option value="$PROJECT_DIR$/testsuite_smoke_tests.py" />
-        <option value="$PROJECT_DIR$/lost_hat_front_page_tests.py" />
-        <option value="$PROJECT_DIR$/lost_hat_product_page_tests.py" />
         <option value="$PROJECT_DIR$/testsuite_sanity_tests.py" />
         <option value="$PROJECT_DIR$/testsuite_all_tests.py" />
-        <option value="$PROJECT_DIR$/lost_hat_login_page_tests.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-        <option value="$PROJECT_DIR$/lost_hat_cart_page_tests.py" />
         <option value="$PROJECT_DIR$/helpers/operational_helpers.py" />
-        <option value="$PROJECT_DIR$/lost_hat_smoke_tests.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
+        <option value="$PROJECT_DIR$/helpers/ScreenshotListener.py" />
         <option value="$PROJECT_DIR$/lost_hat_sanity_tests.py" />
+        <option value="$PROJECT_DIR$/lost_hat_smoke_tests.py" />
+        <option value="$PROJECT_DIR$/lost_hat_cart_page_tests.py" />
+        <option value="$PROJECT_DIR$/lost_hat_front_page_tests.py" />
+        <option value="$PROJECT_DIR$/lost_hat_login_page_tests.py" />
+        <option value="$PROJECT_DIR$/lost_hat_product_page_tests.py" />
       </list>
     </option>
   </component>
@@ -112,7 +265,20 @@
             <path>
               <item name="jt_part4_demo_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="jt_part4_demo_test" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="testScreenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jt_part4_demo_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="jt_part4_demo_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="jt_part4_demo_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -121,7 +287,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -143,8 +311,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in lost_hat_smoke_tests.py">
-    <configuration name="lost_hat_cart_page_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in lost_hat_cart_page_tests.py">
+    <configuration name="scratch_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jt_part4_demo_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,17 +320,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lost_hat_cart_page_tests.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="operational_helpers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jt_part4_demo_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,29 +338,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/operational_helpers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="testsuite_smoke_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jt_part4_demo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testsuite_smoke_tests.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,6 +361,19 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/lost_hat_cart_page_tests.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in lost_hat_sanity_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="jt_part4_demo_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lost_hat_sanity_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Unittests in lost_hat_smoke_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="jt_part4_demo_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,19 +388,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in lost_hat_cart_page_tests.py" />
-      <item itemvalue="Python.lost_hat_cart_page_tests" />
-      <item itemvalue="Python.operational_helpers" />
-      <item itemvalue="Python.testsuite_smoke_tests" />
+      <item itemvalue="Python.scratch_4" />
+      <item itemvalue="Python.scratch_5" />
+      <item itemvalue="Python tests.Unittests in lost_hat_sanity_tests.py" />
       <item itemvalue="Python tests.Unittests in lost_hat_smoke_tests.py" />
+      <item itemvalue="Python tests.Unittests in lost_hat_cart_page_tests.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in lost_hat_smoke_tests.py" />
-        <item itemvalue="Python.testsuite_smoke_tests" />
         <item itemvalue="Python tests.Unittests in lost_hat_cart_page_tests.py" />
-        <item itemvalue="Python.operational_helpers" />
-        <item itemvalue="Python.lost_hat_cart_page_tests" />
+        <item itemvalue="Python tests.Unittests in lost_hat_smoke_tests.py" />
+        <item itemvalue="Python tests.Unittests in lost_hat_sanity_tests.py" />
+        <item itemvalue="Python.scratch_5" />
+        <item itemvalue="Python.scratch_4" />
       </list>
     </recent_temporary>
   </component>
@@ -263,24 +426,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_lost_hat_cart_page_tests_py - 2019.03.21 at 15h 56m 48s.xml">
-      <configuration name="Unittests in lost_hat_cart_page_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_lost_hat_cart_page_tests_py - 2019.03.21 at 16h 05m 04s.xml">
-      <configuration name="Unittests in lost_hat_cart_page_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.03.22 at 11h 17m 48s.xml">
-      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.03.22 at 11h 32m 32s.xml">
-      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.03.22 at 11h 42m 19s.xml">
-      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.03.22 at 11h 46m 09s.xml">
-      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.03.22 at 11h 49m 37s.xml">
       <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
     </history-entry>
@@ -293,17 +438,46 @@
     <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.03.22 at 11h 57m 23s.xml">
       <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.05.27 at 11h 51m 27s.xml">
+      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.05.27 at 11h 54m 00s.xml">
+      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lost_hat_sanity_tests_py - 2019.05.29 at 13h 12m 34s.xml">
+      <configuration name="Unittests in lost_hat_sanity_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.05.29 at 13h 16m 05s.xml">
+      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lost_hat_smoke_tests_py - 2019.05.29 at 13h 16m 44s.xml">
+      <configuration name="Unittests in lost_hat_smoke_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lost_hat_cart_page_tests_py - 2019.05.29 at 13h 43m 27s.xml">
+      <configuration name="Unittests in lost_hat_cart_page_tests.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14456981" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.626151" visible="true" weight="0.2461213" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882273" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3301759" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32882273" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26522326" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32882273" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.34776726" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.37384897" side_tool="true" visible="true" weight="0.2461213" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882273" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -313,26 +487,25 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16784203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3301759" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.34776726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32882273" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.34776726" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,60 +542,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Upload of all data from course: 'Jak testować part 4'" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lost_hat_product_page_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="118" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testsuite_smoke_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lost_hat_smoke_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lost_hat_cart_page_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/operational_helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lost_hat_cart_page_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -441,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,20 +730,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lost_hat_tests.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lost_hat_login_page_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helpers/functional_helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -635,33 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lost_hat_cart_page_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lost_hat_front_page_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helpers/operational_helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,13 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lost_hat_product_page_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -690,26 +762,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testsuite_sanity_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="34">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/ScreenshotListener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lost_hat_front_page_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lost_hat_smoke_tests.py">
+    <entry file="file://$PROJECT_DIR$/lost_hat_login_page_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="69" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="138">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lost_hat_product_page_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -718,8 +863,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lost_hat_sanity_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="111" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="111" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lost_hat_smoke_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lost_hat_cart_page_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

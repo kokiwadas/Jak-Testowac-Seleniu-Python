@@ -1,6 +1,9 @@
 import unittest
 from selenium import webdriver
+from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
+
 from helpers import functional_helpers as fh
+from helpers.ScreenshotListener import ScreenshotListener
 
 
 class LostHatLoginPageTests(unittest.TestCase):
@@ -9,16 +12,17 @@ class LostHatLoginPageTests(unittest.TestCase):
     def setUp(self):
         self.base_url = 'http://autodemo.testoneo.com/en/'
         self.login_url = self.base_url + 'login'
-        self.driver = webdriver.Chrome(executable_path=r"C:\Python\Test\chromedriver.exe")
+        driver = webdriver.Chrome(executable_path=r"C:\Personal_Belongings\Python\Chromedriver\chromedriver.exe")
+        self.ef_driver = EventFiringWebDriver(driver, ScreenshotListener())
 
     @classmethod
     def tearDown(self):
-        self.driver.quit()
+        self.ef_driver.quit()
 
     def test_login_text_header(self):
         expected_text = 'Log in to your account'
         header_xpath = '//header[@class="page-header"]'
-        driver = self.driver
+        driver = self.ef_driver
         driver.get(self.login_url)
         self.assert_element_text(driver, header_xpath, expected_text)
 
@@ -28,7 +32,7 @@ class LostHatLoginPageTests(unittest.TestCase):
         user_name_xpath = '//a[@class="account"]/*[@class="hidden-sm-down"]'
         user_email = 'testing@test.com'
         user_pass = 'Password1'
-        driver = self.driver
+        driver = self.ef_driver
         driver.get(self.login_url)
         fh.user_login(driver, user_email, user_pass)
         self.assert_element_text(driver, user_name_xpath, expected_text)
@@ -39,7 +43,7 @@ class LostHatLoginPageTests(unittest.TestCase):
         alert_xpath = '//*[@class="alert alert-danger"]'
         user_email = 'invalid@test.test'
         user_pass = 'abc123'
-        driver = self.driver
+        driver = self.ef_driver
         driver.get(self.login_url)
         fh.user_login(driver, user_email, user_pass)
         self.assert_element_text(driver, alert_xpath, expected_text)

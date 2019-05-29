@@ -1,6 +1,9 @@
 import unittest
 from selenium import webdriver
+from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
+
 from helpers import operational_helpers as oh
+from helpers.ScreenshotListener import ScreenshotListener
 
 
 class LostHatCartPageTests(unittest.TestCase):
@@ -9,17 +12,18 @@ class LostHatCartPageTests(unittest.TestCase):
     def setUp(self):
         self.base_url = 'http://autodemo.testoneo.com/en/'
         self.product_url = self.base_url + 'art/12-mountain-fox-vector-graphics.html'
-        self.driver = webdriver.Chrome(executable_path=r"C:\Python\Test\chromedriver.exe")
+        driver = webdriver.Chrome(executable_path=r"C:\Personal_Belongings\Python\Chromedriver\chromedriver.exe")
+        self.ef_driver = EventFiringWebDriver(driver, ScreenshotListener())
 
     @classmethod
     def tearDown(self):
-        self.driver.quit()
+        self.ef_driver.quit()
 
     def test_add_to_cart(self):
         confirmation_modal_title_xpath = '//*[@id="myModalLabel"]'
         expected_confirmation_text = 'Product successfully added to your shopping cart'
         add_to_cart_button_xpath = '//*[@class="btn btn-primary add-to-cart"]'
-        driver = self.driver
+        driver = self.ef_driver
         driver.get(self.product_url)
         add_to_cart_button = driver.find_element_by_xpath(add_to_cart_button_xpath)
         add_to_cart_button.click()
