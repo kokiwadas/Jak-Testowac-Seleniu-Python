@@ -1,15 +1,13 @@
-import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
-
+from helpers.base_class_tests import BaseTestClass
+from helpers.wrappers import screenshot_decorator
 from helpers import operational_helpers as oh
-import time
-
-from helpers.ScreenshotListener import ScreenshotListener
+from helpers.screenshot_listener import ScreenshotListener
 
 
-class LostHatSmokeTests(unittest.TestCase):
+class LostHatSmokeTests(BaseTestClass):
 
     @classmethod
     def setUpClass(self):
@@ -21,26 +19,27 @@ class LostHatSmokeTests(unittest.TestCase):
         driver = webdriver.Chrome(executable_path=r"C:\Personal_Belongings\Python\Chromedriver\chromedriver.exe")
         self.ef_driver = EventFiringWebDriver(driver, ScreenshotListener())
 
-    @classmethod
-    def tearDownClass(self):
-        self.ef_driver.quit()
-
+    @screenshot_decorator
     def test_base_page_title(self):
         expected_title = 'Lost Hat'
         self.assert_title(self.base_url, expected_title)
 
+    @screenshot_decorator
     def test_product_clothes_page_title(self):
         expected_title = 'Clothes'
         self.assert_title(self.clothes_product_url, expected_title)
 
+    @screenshot_decorator
     def test_product_accessories_page_title(self):
         expected_title = 'Accessories'
         self.assert_title(self.accessories_product_url, expected_title)
 
+    @screenshot_decorator
     def test_product_art_page_title(self):
         expected_title = 'Art'
         self.assert_title(self.art_product_url, expected_title)
 
+    @screenshot_decorator
     def test_login_page_title(self):
         expected_title = 'Login'
         self.assert_title(self.login_url, expected_title)
@@ -54,6 +53,7 @@ class LostHatSmokeTests(unittest.TestCase):
         self.assertEqual(expected_title, actual_title,
                          f'Expected {expected_title} differ from actual title {actual_title} on page: {url}')
 
+    @screenshot_decorator
     def test_search_bar_existance(self):
         driver = self.ef_driver
         driver.get(self.base_url)
@@ -61,6 +61,7 @@ class LostHatSmokeTests(unittest.TestCase):
         element_existance = oh.check_exists_by_xpath(driver, search_bar_xpath)
         self.assertEqual(True, element_existance, f'Element with xpath: {search_bar_xpath} does not exist on the page with url: {driver.current_url}')
 
+    @screenshot_decorator
     def test_search_bar_phrase_input(self):
         driver = self.ef_driver
         driver.get(self.base_url)

@@ -1,24 +1,11 @@
-import unittest
-from selenium import webdriver
-from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
-
 from helpers import functional_helpers as fh
-from helpers.ScreenshotListener import ScreenshotListener
+from helpers.base_class_tests import BaseTestClass
+from helpers.wrappers import screenshot_decorator
 
 
-class LostHatLoginPageTests(unittest.TestCase):
+class LostHatLoginPageTests(BaseTestClass):
 
-    @classmethod
-    def setUp(self):
-        self.base_url = 'http://autodemo.testoneo.com/en/'
-        self.login_url = self.base_url + 'login'
-        driver = webdriver.Chrome(executable_path=r"C:\Personal_Belongings\Python\Chromedriver\chromedriver.exe")
-        self.ef_driver = EventFiringWebDriver(driver, ScreenshotListener())
-
-    @classmethod
-    def tearDown(self):
-        self.ef_driver.quit()
-
+    @screenshot_decorator
     def test_login_text_header(self):
         expected_text = 'Log in to your account'
         header_xpath = '//header[@class="page-header"]'
@@ -26,6 +13,7 @@ class LostHatLoginPageTests(unittest.TestCase):
         driver.get(self.login_url)
         self.assert_element_text(driver, header_xpath, expected_text)
 
+    @screenshot_decorator
     def test_correct_login(self):
         # expected_text is a user name and user surname used during registration
         expected_text = 'TestDude TestMate'
@@ -37,6 +25,7 @@ class LostHatLoginPageTests(unittest.TestCase):
         fh.user_login(driver, user_email, user_pass)
         self.assert_element_text(driver, user_name_xpath, expected_text)
 
+    @screenshot_decorator
     def test_incorrect_login(self):
         # expected_text is a warning message about authentication failed
         expected_text = 'Authentication failed.'

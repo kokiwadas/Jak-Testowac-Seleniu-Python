@@ -1,24 +1,11 @@
-import unittest
-from selenium import webdriver
-from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
-
 from helpers import operational_helpers as oh
-from helpers.ScreenshotListener import ScreenshotListener
+from helpers.base_class_tests import BaseTestClass
+from helpers.wrappers import screenshot_decorator
 
 
-class LostHatCartPageTests(unittest.TestCase):
+class LostHatCartPageTests(BaseTestClass):
 
-    @classmethod
-    def setUp(self):
-        self.base_url = 'http://autodemo.testoneo.com/en/'
-        self.product_url = self.base_url + 'art/12-mountain-fox-vector-graphics.html'
-        driver = webdriver.Chrome(executable_path=r"C:\Personal_Belongings\Python\Chromedriver\chromedriver.exe")
-        self.ef_driver = EventFiringWebDriver(driver, ScreenshotListener())
-
-    @classmethod
-    def tearDown(self):
-        self.ef_driver.quit()
-
+    @screenshot_decorator
     def test_add_to_cart(self):
         confirmation_modal_title_xpath = '//*[@id="myModalLabel"]'
         expected_confirmation_text = 'Product successfully added to your shopping cart'

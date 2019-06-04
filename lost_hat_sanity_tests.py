@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.event_firing_webdriver import EventFiringWebDriver
 
 from helpers import operational_helpers as oh
-from helpers.ScreenshotListener import ScreenshotListener
+from helpers.screenshot_listener import ScreenshotListener
 
 
 class LostHatSanityTests(unittest.TestCase):
